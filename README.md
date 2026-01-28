@@ -5,7 +5,7 @@
     2) Follow the processing pipeline described below.
 
 # Input Datasets
-  1) Twitter_dataset.xlsx: Contains 42,567 Tweet IDs used in the study.
+  1) Twitter_dataset.xlsx: Contains 42,567 Tweet_IDs used in the study.
   2) finaldata.xlsx: Contains commonly occurring city names, state/province names, and other location strings for each of the ten countries analyzed in the       manuscript.
   3) Country_dataset.xlsx: Contains country-wise COVID-19 cases, deaths, and population data.
 
@@ -13,13 +13,13 @@
   **Step 1:**  
  	  Tweet_IDs in Twitter_dataset.xlsx are hydrated using the Twitter API to retrieve Tweet Text and Location fields. The hydrated outputs are stored in a Google        Sheet.  
   **Step 2:**  
- 	  Run Final code for publication 1.ipynb. This notebook applies the Twitter-roBERTa-base sentiment model to hydrated tweets.  
+ 	  Run Final_code_for_publication_1.ipynb. This notebook applies the Twitter-roBERTa-base sentiment model to hydrated tweets.  
       - **pred_label** corresponds to **local sentiment**  
       - **final_tweet_logit** corresponds to the **Sentiment Score (SC)** defined in the manuscript  
   **Step 3:**  
- 	  Run Final code for publication 2.ipynb. This notebook executes the Bayesian Multilevel Ordinal Regression (BMOR) model.  
+ 	  Run Final_code_for_publication_2.ipynb. This notebook executes the Bayesian Multilevel Ordinal Regression (BMOR) model.  
   **Step 4:**  
- 	  Run Final code for publication 3.ipynb. This notebook implements Method 1 and Method 2 proposed in the manuscript. Additionally, the following baseline models      are applied to the generated global sentiment labels:  
+ 	  Run Final_code_for_publication_3.ipynb. This notebook implements Method 1 and Method 2 proposed in the manuscript. Additionally, the following baseline models      are applied to the generated global sentiment labels:  
       - Logistic Regression  
       - Random Forest  
       - Multinomial Naive Bayes  
