@@ -13,7 +13,7 @@
   **Step 1:**  
  	  Tweet_IDs in Twitter_dataset.xlsx are hydrated using the Twitter API to retrieve Tweet Text and Location fields. The hydrated outputs are stored in a Google        Sheet.  
   **Step 2:**  
- 	  Run Final_code_for_publication_1.ipynb. This notebook applies the Twitter-roBERTa-base sentiment model to hydrated tweets.  
+ 	  Run Final_code_for_publication_1.ipynb. This notebook applies the Twitter-roBERTa-base sentiment analysis model to hydrated tweets.  
       - **pred_label** corresponds to **local sentiment**  
       - **final_tweet_logit** corresponds to the **Sentiment Score (SC)** defined in the manuscript  
   **Step 3:**  
