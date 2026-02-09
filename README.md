@@ -1,6 +1,6 @@
 # Reproducibility and Compliance
   Tweet text and user location are not redistributed to comply with Twitter/X Terms of Service (TOS) and privacy policies. Only Tweet IDs and derived labels are      shared.
-  ## Researchers wishing to reproduce the results must:
+  ## Researchers wishing to reproduce the results must perform the following task:
     1) Hydrate the Tweet IDs using their own Twitter API credentials.
     2) Follow the processing pipeline described below.
 
